@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRPF_ICAS">
+
+
+<listeners>
+<listener class-name="com.utilities.Reporter"></listener>
+</listeners>
+
+
+<test name="ICAS Crpf">
+
+<parameter name="browser" value="chrome">
+<classes>
+<class name="com.testcases.Login_TC_001"></class>
+
+<!-- <class name="com.testcases.Addterrorist_testcases"></class> -->
+</classes></parameter>
+</test>
+</suite>
